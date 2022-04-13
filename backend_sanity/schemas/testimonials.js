@@ -1,12 +1,12 @@
-export default{
-    name: 'testimonials',
-    title: 'Testimonials',
+export default {
+    name:'testimonials',
+    title:'Testimonials',
     type: 'document',
-    fields: [
-        {
+    fields:[
+        { 
             name:'name',
             title:'Name',
-            type:'string'
+            type: 'string'
         },
         {
             name:'company',
@@ -14,18 +14,17 @@ export default{
             type:'string'
         },
         {
-            name:'imageurl',
-            title:'ImgYRL',
-            type:'image',
+            name:'imgurl',
+            title:'ImgUrl',
+            type: 'image',
             options: {
-                hotspot: true,
-            }
-        },
+              hotspot: true,
+            },
+        },  
         {
             name:'feedback',
             title:'Feedback',
             type:'string'
         }
     ]
-
 }
